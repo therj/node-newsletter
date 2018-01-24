@@ -1,0 +1,23 @@
+{
+  "name": "node-newsletter",
+  "version": "1.0.0",
+  "description": "A node newsletter app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therj/node-newsletter.git"
+  },
+  "author": "Rabindra Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therj/node-newsletter/issues"
+  },
+  "homepage": "https://github.com/therj/node-newsletter#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
