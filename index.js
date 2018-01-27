@@ -1,16 +1,15 @@
 var express = require("express");
 var PORT = 8421;
 var path = require("path");
+
 //uses current path to make file location and OS independent.
-
 app = express();
+app.set("view engine", "ejs");
 
-
+app.use('/static', express.static('public'))
 //Home Page GET request
 app.get("/", function (req, res) {
-    res.send("Hello World");
-    //Only first response is sent.
-    res.sendFile(path.join(__dirname + '/abc.html'));
+    res.render("index");
 });
 
 

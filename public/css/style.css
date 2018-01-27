@@ -1,0 +1,16 @@
+.ui.button {
+    margin-top: 1em;
+}
+
+.ui.horizontal.red.label {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ui.header {
+    background: linear-gradient(to bottom, #ae0000 0%,#ff0000 100%);
+    color: mintcream;
+    height: 70px;
+    padding-top: 20px;
+    margin-bottom: 10%;
+}
